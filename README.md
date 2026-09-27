@@ -2,6 +2,12 @@
 
 A personal AI chat workspace web app built with Kiro as the primary development tool. Users hold multiple concurrent conversations with an AI assistant, organized with tags, searchable history, and archiving. All data persists locally in JSON files for privacy and offline access.
 
+## Demo Video
+
+<video src="https://raw.githubusercontent.com/iiijiashu/nestchat/main/demo/nestchat-demo.mp4" controls width="640" title="NestChat demo"></video>
+
+48-second walkthrough: conversations, message exchange with the local assistant, search, archiving, and the `.kiro/` lesson artifacts in this repository.
+
 ## Quick Start
 
 ```bash
