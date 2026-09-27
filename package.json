@@ -1,0 +1,19 @@
+{
+  "name": "nestchat",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Personal AI chat workspace web app",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "npm run test:unit && npm run test:properties",
+    "test:unit": "node --test test/unit/lib/*.test.js",
+    "test:properties": "node --test test/properties/*.test.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "fast-check": "^4.0.0"
+  }
+}

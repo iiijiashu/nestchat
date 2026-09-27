@@ -1,0 +1,68 @@
+{
+  "conversations": [
+    {
+      "id": "sample-001",
+      "createdAt": "2026-09-26T10:30:00.000Z",
+      "archivedAt": null,
+      "tags": ["javascript", "async"],
+      "messages": [
+        {
+          "id": "msg-001",
+          "role": "user",
+          "text": "Hello! I'm learning about async/await in JavaScript.",
+          "timestamp": "2026-09-26T10:30:01.000Z"
+        },
+        {
+          "id": "msg-002",
+          "role": "assistant",
+          "text": "Hi there! What can I assist you with?",
+          "timestamp": "2026-09-26T10:30:02.000Z"
+        },
+        {
+          "id": "msg-003",
+          "role": "user",
+          "text": "How do I handle errors with async/await?",
+          "timestamp": "2026-09-26T10:30:15.000Z"
+        },
+        {
+          "id": "msg-004",
+          "role": "assistant",
+          "text": "Great question! Here's what I know about that: You can use try/catch blocks to handle errors in async functions. Here's an example:\n\nasync function fetchData() {\n  try {\n    const response = await fetch('/api/data');\n    const data = await response.json();\n    return data;\n  } catch (error) {\n    console.error('Error:', error);\n    throw error;\n  }\n}",
+          "timestamp": "2026-09-26T10:30:16.000Z"
+        }
+      ]
+    },
+    {
+      "id": "sample-002",
+      "createdAt": "2026-09-27T09:00:00.000Z",
+      "archivedAt": null,
+      "tags": ["git", "version-control"],
+      "messages": [
+        {
+          "id": "msg-005",
+          "role": "user",
+          "text": "I need help with git",
+          "timestamp": "2026-09-27T09:00:01.000Z"
+        },
+        {
+          "id": "msg-006",
+          "role": "assistant",
+          "text": "Hey! I'm here to help. What would you like to discuss?",
+          "timestamp": "2026-09-27T09:00:02.000Z"
+        },
+        {
+          "id": "msg-007",
+          "role": "user",
+          "text": "How do I undo the last commit?",
+          "timestamp": "2026-09-27T09:00:20.000Z"
+        },
+        {
+          "id": "msg-008",
+          "role": "assistant",
+          "text": "Git is powerful for version control. Have you checked your branch and commit history? There are several ways to undo a commit:\n\n1. **git reset --soft HEAD~1** - Keeps changes staged\n2. **git reset HEAD~1** - Unstages changes but keeps them\n3. **git reset --hard HEAD~1** - Discards changes completely\n\nUse with caution on shared branches!",
+          "timestamp": "2026-09-27T09:00:21.000Z"
+        }
+      ]
+    }
+  ]
+}

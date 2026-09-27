@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+
+# Runtime data (seeded from data/seed.json on first run)
+data/conversations.json
+data/*.tmp
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
