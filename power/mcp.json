@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "nestchat-tools": {
+      "command": "node",
+      "args": ["mcp/server.js"],
+      "env": {},
+      "disabled": false
+    }
+  }
+}

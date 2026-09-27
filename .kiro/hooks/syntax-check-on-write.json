@@ -1,0 +1,11 @@
+{
+  "version": "v1",
+  "hooks": [{
+    "name": "Syntax Check On Write",
+    "trigger": "PostToolUse",
+    "matcher": "fs_write|str_replace|fs_append",
+    "action": { "type": "command", "command": "node scripts/hooks/syntax-check.js" },
+    "enabled": true,
+    "description": "Validates JavaScript file syntax after write operations to catch errors early"
+  }]
+}

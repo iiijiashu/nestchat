@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "nestchat-dev",
+  "version": "1.0.0",
+  "description": "Development utilities for NestChat AI chat workspace: adding REST endpoints to src/server.js, writing fast-check property-based tests for src/lib modules, and using the project's MCP server for workspace tools.",
+  "author": {
+    "name": "Jinhui Zheng"
+  },
+  "keywords": [
+    "nestchat",
+    "chat",
+    "endpoint",
+    "property test",
+    "mcp",
+    "express",
+    "fast-check"
+  ],
+  "homepage": "https://github.com/iiijiashu/nestchat",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iiijiashu/nestchat"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,1 @@
+{"mcpServers":{"nestchat-tools":{"command":"node","args":["mcp/server.js"],"autoApprove":["list_conversations","get_stats","search_messages"]}}}

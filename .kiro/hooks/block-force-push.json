@@ -1,0 +1,11 @@
+{
+  "version": "v1",
+  "hooks": [{
+    "name": "Block Force Push",
+    "trigger": "PreToolUse",
+    "matcher": "execute_pwsh|execute_bash",
+    "action": { "type": "command", "command": "node scripts/hooks/block-force-push.js" },
+    "enabled": true,
+    "description": "Prevents accidental force pushes to git repositories which can overwrite remote history"
+  }]
+}

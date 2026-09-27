@@ -1,0 +1,11 @@
+{
+  "version": "v1",
+  "hooks": [{
+    "name": "Run Tests After Agent Stop",
+    "trigger": "AgentStop",
+    "action": { "type": "command", "command": "npm test" },
+    "timeout": 120,
+    "enabled": true,
+    "description": "Enforces the test suite after every agent turn to ensure code quality is maintained"
+  }]
+}
